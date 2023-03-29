@@ -279,7 +279,7 @@ margin-bottom: 1rem;
     bottom: 0;
     right: 0;
     left: 0;
-    margin: 0 auto;
+    margin:  auto;
     position: fixed;
     width: 100%;
     background: #e3dcd5;
@@ -295,54 +295,7 @@ margin-bottom: 1rem;
     justify-content: space-evenly;
     height: 80px;
   }
-  footer .content .bottom {
-    padding: 0;
-    margin: 0;
-    top: 0%;
-  }
-  footer .content .bottom .beat {
-    color: red;
-    -webkit-animation: beat 0.3s infinite alternate;
-            animation: beat 0.3s infinite alternate;
-  }
-  footer .content .top {
-    font-size: 25px;
-  }
-  footer .content .top .fa-twitter:hover {
-    transition: 350ms ease-in-out;
-    color: #55acee;
-    transform: scale(1.4);
-  }
-  footer .content .top .fa-youtube:hover {
-    transition: 350ms ease-in-out;
-    color: #cd201f;
-    transform: scale(1.4);
-  }
-  footer .content .top .fa-instagram:hover {
-    transition: 350ms ease-in-out;
-    color: #e4405f;
-    transform: scale(1.4);
-  }
-  footer .content .top .fa-codepen:hover {
-    transition: 350ms ease-in-out;
-    color: #FFDD40;
-    transform: scale(1.4);
-  }
-  footer .content .top a {
-    padding: 10px;
-  }
-  footer .content .top i {
-    transition: 500ms ease-in-out;
-  }
  
-  
-  .noselect {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-  }
-  
   .artboard {
     display: flex;
     align-items: center;
@@ -362,7 +315,7 @@ margin-bottom: 1rem;
   .button, .links {
     display: inline-block;
     width: 200px;
-    height: 66.6666666667px;
+    height: 70px;
     background: #6642eb;
   }
   .button i, .button a, .links i, .links a {
@@ -370,10 +323,9 @@ margin-bottom: 1rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: white;
   }
   .button i, .links i {
-    font-size: 10px;
+    font-size: 12px;
   }
   
   .button {
