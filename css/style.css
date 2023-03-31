@@ -237,33 +237,42 @@ header {
 
 .skills_list {
   width: 100%;
-  background-color: #160101;
-  box-sizing: border-box;
+ 
   padding-left: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
- 
+  padding-right: 5%;
+     
 }
 
 .progress{
-  
+
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: rgb(29, 0, 0);
-  border: solid;
-  box-sizing: border-box
+  color: rgb(3, 0, 10);
+  box-sizing: border-box;
+  border-radius: 25px;
+  }
+
+
+.bo{
+
+   color: rgb(29, 0, 0);
+    width: 100%;
+  background-color: #ecb9ec5e;
+   border-radius: 25px;
+    
 }
 
 .html {
   width: 90%;
   background-color: #17eb68;
- 
+  border-radius: 25px;
 }
 
 .css {
   width: 78%;
   background-color: #05c5d3;
+ 
 }
 
 .java {
