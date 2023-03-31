@@ -237,30 +237,30 @@ header {
 
 .skills_list {
   width: 100%;
- 
+
   padding-left: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 5%;
-     
+
 }
 
-.progress{
+.progress {
 
   text-align: right;
   color: rgb(3, 0, 10);
   box-sizing: border-box;
   border-radius: 25px;
-  }
+}
 
 
-.bo{
+.bo {
 
-   color: rgb(29, 0, 0);
-    width: 100%;
+  color: rgb(29, 0, 0);
+  width: 100%;
   background-color: #ecb9ec5e;
-   border-radius: 25px;
-    
+  border-radius: 25px;
+
 }
 
 .html {
@@ -270,13 +270,13 @@ header {
 }
 
 .css {
-  width: 78%;
+  width: 85%;
   background-color: #05c5d3;
- 
+
 }
 
 .java {
-  width: 85%;
+  width: 78%;
   background-color: #fc4d9e;
 }
 
@@ -286,18 +286,19 @@ header {
 }
 
 .git {
-  width: 60%;
+  width: 78%;
   background-color: #0adb3f;
 }
 
-.mysql {
-  width: 40%;
-  background-color: #f85050;
-}
 
 .jdbc {
-  width: 90%;
+  width: 72%;
   background-color: #7af1c4;
+}
+
+.mysql {
+  width: 80%;
+  background-color: #f85050;
 }
 
 
