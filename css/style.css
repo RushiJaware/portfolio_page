@@ -16,9 +16,8 @@
   --paragraph: rgb(0, 0, 7);
   --para-tint: rgb(204, 203, 228);
   --white: rgb(255, 255, 255);
-
   --black: rgb(75, 46, 46);
-  --helper: rgba(62, 50, 230, 0.397);
+  --helper: rgba(46, 46, 53, 0.863);
   --helper-tint: rgb(0, 0, 10);
   --bg: rgb(254, 254, 255);
   --gradient: rgb(106, 20, 219);
@@ -29,8 +28,7 @@
 
 html {
   font-size: 100%;
-  /* 1rem = 10px */
-
+ 
 }
 
 h1,
@@ -218,9 +216,9 @@ header {
 }
 
 .about-para {
-  font-size: 1rem;
-  text-indent: 10%;
-  align-items: center;
+  font-size: 1.2rem;
+  text-indent: 15%;
+  text-align: justify;
 }
 
 .common-heading {
@@ -300,11 +298,6 @@ header {
   width: 80%;
   background-color: #f85050;
 }
-
-
-
-
-
 
 
 /* about page cs */
