@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rushi Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -18,7 +20,7 @@
                 <li><a href="#" class="navbar-link home-link">Home</a></li>
                 <li><a href="#" class="navbar-link about-link">About</a></li>
                 <li><a href="#" class="navbar-link skills-link">Skills</a></li>
-                <li><a href="#" class="navbar-link project-link">Project</a></li>
+                <li><a href="projects.html" class="navbar-link project-link">Project</a></li>
                 <li><a href="#" class="navbar-link contact-link">Contact</a></li>
             </ul>
         </nav>
@@ -46,14 +48,15 @@
     <!-- about sectio stared -->
     <section class="section-biodata section">
         <div class="container grid grid-two-column">
-            <div class="bio-image">
+            <div class="bio-image" data-aos="fade-right" data-aos-duration="10000">
                 <img src="images/aboutRushi.jpg" alt="about me" />
             </div>
             <!-- about right side data -->
             <div class="bio-data">
                 <h2 class="common-heading">About Me</h2>
                 <p class="about about-para">A Full Stack Developer with good communication skills and learning
-                    abilities, who can write code using HTML, CSS and JavaScript on frontend, Core Java & Advanced Java on backend to build applications. </p>
+                    abilities, who can write code using HTML, CSS and JavaScript on frontend, Core Java & Advanced Java
+                    on backend to build applications. </p>
                 <br>
                 <p class="about about-para">Looking forwards to work in a product based company to enhance the experince
                     and skills.</p>
@@ -131,6 +134,14 @@
 
 
 
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
